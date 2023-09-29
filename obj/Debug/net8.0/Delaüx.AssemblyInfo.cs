@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Delaüx")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00575f4b59a31330174ec179039b2165149ebdf8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a69bb8ec78d1b694946636201016ae26eb753d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Delaüx")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Delaüx")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

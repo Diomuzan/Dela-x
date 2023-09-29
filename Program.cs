@@ -4,6 +4,7 @@ class Program {
         RandomNumbers();
         BattleSimulation();
         InputValue();
+        likedDish();
     }
 
     static void RandomNumbers() {
@@ -66,8 +67,26 @@ class Program {
 
     static void likedDish() {
         string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
+
+        foreach (string myString in myStrings) {
+            int periodLocation = myString.IndexOf(".");
+            if (periodLocation != -1) {
+                string remainingText = myString.Substring(0, periodLocation); // Extrahiere den Text vor dem Punkt
+                string[] sentences = remainingText.Split('.'); // Teile den Text in Sätze auf
+
+                foreach (string sentence in sentences) {
+                    string trimmedSentence = sentence.Trim(); // Entferne führende und nachstehende Leerzeichen
+                    if (!string.IsNullOrEmpty(trimmedSentence)) {
+                        Console.WriteLine(trimmedSentence);
+                    }
+                }
+            }
+        }
     }
 }
+
+    
+
 
 
 
